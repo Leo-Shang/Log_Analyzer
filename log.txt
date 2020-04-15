@@ -1,0 +1,15 @@
+17.352792s enters function TransferData()
+17.352793s enters function GetDataReady()
+17.352795s exits from function GetDataReady()
+17.352800s enters function SetupDMA()
+17.352820s enters function SetupDescriptor()
+17.352831s enters function WriteDescriptor()
+17.352832s exits from function WriteDescriptor()
+17.352832s Debug: Src: 0x45700b00
+17.352833s enters function WriteDescriptor()
+17.352834s Warning: Address not in range
+17.352835s exits from function WriteDescriptor()
+17.352836s exits from function SetupDescriptor()
+17.352840s Debug: Checking DMA destination
+17.352845s exits from function SetupDMA()
+17.352845s exits from function TransferData()
