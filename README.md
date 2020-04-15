@@ -1,17 +1,19 @@
-======================================== README ==============================================
+# README
 
-Name: Leo Shang (Student ID: 301280479)
-University: SFU
+## Name: Leo Shang (Student ID: 301280479)
+## School: SFU
 
 
-Development Environment:
+## Development Environment:
+
     Language: Python
     Version: Python 3.6.4
     OS: Windows 10
-    IDE: PyCharm 2017.3.3 (Community Edition)
+    IDE: PyCharm (Community Edition)
 
 
-High level description of the algorithm:
+## High level description of the algorithm:
+
     Keep two lists named "finished_list" and "enter". "enter" keeps
     the record of running (not exit yet) function names and their starting
     time with a dirty bit detecting the existence of nested function call.
@@ -27,10 +29,9 @@ High level description of the algorithm:
     At the end of program, report the tuples in "finished_list"
 
 
-Note:
+## Note:
+
     The program is built on the assumption that the function enters and exits
     naturally:
         i.e.: If A() calls B(), then B() must exit before A() does. Otherwise,
         the program triggers error report(line 12 of solution.py)
-
-============================================ END ============================================
